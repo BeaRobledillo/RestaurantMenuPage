@@ -1,0 +1,98 @@
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+header hr {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    border-bottom: 3px cornflowerblue solid;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin: 15px;
+    padding: 5px 10px;
+    color: cornflowerblue;
+    border: 1px cornflowerblue solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.active {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    width: 40%;
+    margin-top:15px;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-item-card-img {
+    width: 100%;
+    max-width: 156px;
+    max-height: 156px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px cornflowerblue solid;
+}
+
+img{
+    width: 100%;
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    border-radius: 5px;
+}
+
+.menu-item-card-info {
+    display: block;
+    padding: 10px;
+}
+
+.menu-item-card-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+}
+
+.item-price {
+    color: cornflowerblue;
+}
+
+.padding {
+    padding-top: 10px;
+}
